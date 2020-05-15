@@ -1,1 +1,10 @@
 @import 'bootstrap/dist/css/bootstrap';
+@import "font-awesome";
+
+.no-right-padding {
+  padding-right: 0;
+}
+
+.no-left-padding {
+padding-left: 3px;
+}
