@@ -1,5 +1,10 @@
 @import 'bootstrap/dist/css/bootstrap';
 @import "font-awesome";
+@import url('//fonts.googleapis.com/css2?family=Jost:wght@500&display=swap');
+
+#logo {
+  font-family: 'Jost', sans-serif;
+}
 
 .no-right-padding {
   padding-right: 0;
@@ -12,4 +17,14 @@ padding-left: 3px;
 .results-block {
   display: inline-block;
   margin-bottom: 1rem;
+}
+
+#add-stock {
+  color: rgb(40, 180, 0);
+  text-decoration: none;
+  padding-left: 10px;
+}
+
+#add-stock:hover {
+  color: green;
 }
