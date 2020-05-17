@@ -4,9 +4,9 @@
 
 <% if @friend %>
   <div class="card card-header results-block">
+    <strong>Email: </strong> <%= @friend %>
     <strong>First Name: </strong> <%= @friend %>
     <strong>Last Name: </strong> <%= @friend %>
-    <strong>Email: </strong> <%= @friend %>
     <%= link_to ' ', "#", class: "fa fa-plus-circle", id: "add-friend", method: :post %>
   </div>
 <% end %>
