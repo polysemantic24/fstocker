@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   get 'myportfolio', to: 'users#myportfolio'
   get 'searchstock', to: 'stocks#search'
   get 'myfriends', to: 'users#myfriends'
+  get 'searchfriend', to: 'users#search'
 end
